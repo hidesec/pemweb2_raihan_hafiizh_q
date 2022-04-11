@@ -1,0 +1,51 @@
+#scrollableTable {
+  font-size: 15px;
+  height: 100%;
+  padding: 2px;
+  table-layout: fixed;
+  text-align: left;
+  width: auto;
+  overflow-x: auto;
+}
+
+#scrollableTable thead {
+  background-color: #C3E6CB;
+}
+
+#scrollableTable th {
+  border: 1px solid #CCC;
+  font-weight: 600;
+  padding: 2px;
+  text-align: left;
+  padding-left: 2px;
+  width: 1%;
+  word-wrap: break-word;
+}
+
+#scrollableTable tbody {
+  border-bottom: 1px solid #CCC;
+}
+
+.scrollTable tbody {
+  display: block;
+  max-height: 500px;
+  /* Scroll container height. */
+  overflow-y: auto;
+}
+
+#scrollableTable td {
+  border-bottom: 1px solid #CCC;
+  border-left: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+  padding-left: 2px;
+  width: 1%;
+  word-wrap: break-word;
+}
+
+#scrollableTable table tr:last-child {
+  border-bottom: none;
+}
+
+.marginTop20 {
+  margin-top: 20px;
+}
